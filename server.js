@@ -60,6 +60,6 @@ app.post('/respostas', (req, res) => {
 
 // espera e trata requisições de clientes
 const port = 5000;
-app.listen(port, 'localhost', () => {
+app.listen(port, '0.0.0.0', () => {
   console.log(`ESM Forum rodando em ${port}`)
 });
