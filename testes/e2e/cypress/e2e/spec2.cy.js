@@ -1,5 +1,5 @@
-describe('Primeiro teste end-to-end', () => {
-  it('Cadastra uma pergunta e verifica se ela é listada', () => {
+describe('Segunda teste end-to-end', () => {
+  it('Cadastra uma pergunta e verifica se ela é listada, em seguida faz o mesmo com uma resposta', () => {
     cy.visit('localhost:3000');
     
     cy.get('#textarea-pergunta').type('3+3');
